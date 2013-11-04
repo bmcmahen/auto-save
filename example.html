@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<textarea id='autosave'></textarea>
+
+<script src='build/build.js'></script>
+<script>
+var interval = require('auto-save')(500);
+var txt = document.getElementById('autosave');
+txt.oninput = function(){
+  interval(function(){
+    console.log('do some saving.');
+  });
+}
+
+</script>
+</body>
+</html>
