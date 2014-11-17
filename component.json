@@ -2,7 +2,7 @@
   "name": "auto-save",
   "repo": "bmcmahen/auto-save",
   "description": "an timer useful for implementing delayed autosave in text-based applications",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {},
   "development": {},

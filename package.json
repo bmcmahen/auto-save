@@ -1,0 +1,25 @@
+{
+  "name": "auto-save",
+  "version": "1.0.0",
+  "description": "a tiny timer wrapper that is useful for implementing auto-save in text-based applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmcmahen/auto-save.git"
+  },
+  "keywords": [
+    "auto-save",
+    "save",
+    "editor",
+    "text"
+  ],
+  "author": "Ben McMahen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmcmahen/auto-save/issues"
+  },
+  "homepage": "https://github.com/bmcmahen/auto-save"
+}
